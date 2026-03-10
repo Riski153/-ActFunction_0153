@@ -25,3 +25,10 @@ void output()
 {
     cout << "Luasnya : " << luasPersegi(panjang, lebar) << endl;
 }
+
+int mian()
+{
+    input();
+    output();
+    cout << "Kelilingnya : " << kelilingPersegi(panjang, lebar);
+}
